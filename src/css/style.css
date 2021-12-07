@@ -1,0 +1,89 @@
+/* ----RESET---- */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: 300;
+}
+
+/* ------------------ */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.max-width-1440 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.navbar .logo {
+    width: 210px;
+}
+
+.navbar .nav-link {
+    color: #505050;
+}
+
+.navbar .nav-link:hover, .dropdown-item:hover {
+    background-color: #00742C;
+    color: #fff!important;
+}
+
+.section-panel .destaque-formacao {
+    background-color: #00742C;
+    height: 85px;
+}
+
+.section-panel .destaque-formacao .nome-formacao {
+    color: #fff;
+}
+
+.section-panel .img-slide {
+    object-fit: cover;
+    height: 390px;
+    object-position: center;
+}
+
+.section-accordion {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-accordion .accordion-button:not(.collapsed){
+    background-color: #979797;
+    color: #fff;
+}
+
+.section-accordion .accordion-button:not(.collapsed):after{
+    filter: brightness(0%) invert(100%); 
+}
+
+.section-accordion .accordion-button.collapsed{
+    background-color: #C4C4C4;
+}
+
+.section-accordion .accordion-button:focus {
+    box-shadow: none;
+}
+
+.section-formadores .nome{
+    color: #505050;
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: #00742C;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: #004d1d;
+    color: #fff;
+}
